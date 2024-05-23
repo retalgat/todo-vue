@@ -1,0 +1,23 @@
+/* Page */
+
+.page {
+  height: 100%;
+  background-color: var(--color-back);
+  color: var(--color-text);
+}
+
+.page__body {
+  display: flex;
+  flex-direction: column;
+  max-width: 720px;
+  height: 100%;
+  margin: 0 auto;
+  padding-inline: 1.25rem;
+  font-family: var(--font-family);
+  font-size: var(--font-size-md);
+  line-height: 1.5;
+}
+
+.page__app {
+  display: contents;
+}

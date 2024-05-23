@@ -1,0 +1,13 @@
+/* Icon */
+
+.icon {
+  display: inline-flex;
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+}
+
+.icon__svg {
+  width: inherit;
+  height: inherit;
+}

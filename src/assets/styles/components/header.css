@@ -1,0 +1,15 @@
+/* Header */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 1.25rem;
+}
+
+.header__title {
+  margin: 0;
+  font-weight: bold;
+  font-size: var(--font-size-h1);
+  line-height: 1;
+}
