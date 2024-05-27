@@ -13,3 +13,18 @@
   font-size: var(--font-size-h3);
   line-height: 1;
 }
+
+.header__nav {
+  display: flex;
+  column-gap: 1rem;
+}
+
+.header__link {
+  color: var(--color-text-secondary);
+  text-decoration: none;
+}
+
+.header__link--active {
+  color: var(--color-text);
+  box-shadow: 0 2px var(--color-primary);
+}
