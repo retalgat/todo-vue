@@ -6,5 +6,7 @@
   --font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 
   --font-size-md: 1rem;
-  --font-size-h1: 2rem;
+  --font-size-h3: 1.5rem;
+  --font-size-h2: 2rem;
+  --font-size-h1: 3rem;
 }

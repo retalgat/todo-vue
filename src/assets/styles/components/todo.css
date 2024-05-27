@@ -1,0 +1,34 @@
+/* Todo */
+
+.todo {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  align-items: start;
+  column-gap: 0.5rem;
+  padding-block: 0.5rem;
+}
+
+.todo__label {
+  display: inline-flex;
+  align-items: baseline;
+  justify-self: start;
+}
+
+.todo__checkbox {
+  margin: 0;
+  accent-color: var(--color-primary);
+}
+
+.todo__title {
+  padding-left: 0.5rem;
+}
+
+.todo__title--completed {
+  text-decoration: line-through;
+  color: var(--color-text-secondary);
+}
+
+.todo__button {
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+}

@@ -3,6 +3,7 @@
 .button {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   column-gap: 8px;
   padding: 1rem;
   background-color: var(--color-back-secondary);
